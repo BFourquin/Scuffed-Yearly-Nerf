@@ -1,0 +1,40 @@
+###########################
+# News Events
+###########################
+
+add_namespace = yearly_nerfs
+
+
+
+# 1937 nerf
+country_event = {
+	id = yearly_nerfs.1937
+
+	is_triggered_only = yes
+	major = yes
+	fire_only_once = no	
+
+
+	title = "1940 — Military Production Fatigue"
+
+	desc = "As many country have started a rearmament program, our own military industry is facing new challenges.
+
+	Competition to get strategic materials on the global market, private arms factory prefering to take lucrative foreign purchases, and constant retooling for more advanced designs coming every years...
+
+	If the effects are barely noticeable now, should a war break out soon, we expect this problems to be far more severe."
+
+	picture = news_event_generic_factory
+	#picture = GFX_report_event_generic_lend_lease
+	
+	option = {
+		name = "Our military industry will have to adapt"
+		add_dynamic_modifier = {
+			modifier = iranis_nerf_1937
+			days = 364
+			}
+		}
+	}
+
+
+}
+

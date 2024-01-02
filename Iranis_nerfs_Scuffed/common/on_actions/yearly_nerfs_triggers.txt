@@ -1,0 +1,14 @@
+
+
+on_actions = {
+	on_startup = {
+		effect = { 
+			GER = {
+				country_event = { 
+					id = yearly_nerfs.1937
+					days = 1 
+				}
+			}
+		}
+	}
+}
